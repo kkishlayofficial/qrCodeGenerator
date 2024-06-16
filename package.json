@@ -1,0 +1,37 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "Generates QR Code for your message",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "rm -rf dist-dev .parcel-cache && parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkishlayofficial/qrCodeGenerator.git"
+  },
+  "keywords": [
+    "QR",
+    "QR Code Generator",
+    "React",
+    "React QR Code Generator"
+  ],
+  "author": "Kishlay Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkishlayofficial/qrCodeGenerator/issues"
+  },
+  "homepage": "https://github.com/kkishlayofficial/qrCodeGenerator#readme",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18.3.1",
+    "react-qrcode-logo": "^3.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}
